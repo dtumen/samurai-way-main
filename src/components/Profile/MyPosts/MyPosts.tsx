@@ -10,7 +10,8 @@ const MyPosts: React.FC = () => {
           <textarea name="" id=""></textarea>
           <button>Add post</button>
           <div className={s.posts}>
-            <Post />
+            <Post message={'Hi, how are you?'} likesCount={10}/>
+            <Post message={'What are you doing?'} likesCount={15}/>
           </div>
         </div>
   );
