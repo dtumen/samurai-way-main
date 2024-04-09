@@ -1,9 +1,10 @@
 import React from 'react';
-import styles from './Profile.module.css';
+import s from './Profile.module.css';
+import MyPosts from './MyPosts/MyPosts';
 
 const Profile: React.FC = () => {
   return (
-    <div className={styles.content}>
+    <div className={s.content}>
         <div>
           <img
             src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=800"
@@ -11,15 +12,7 @@ const Profile: React.FC = () => {
         </div>
         <div>ava + desc</div>
 
-        <div>
-          My posts
-          <div>New Post</div>
-          <div>
-            <div>Post 1</div>
-            <div>Post 2</div>
-            <div>Post 3</div>
-          </div>
-        </div>
+        <MyPosts />
       </div>
   );
 };
