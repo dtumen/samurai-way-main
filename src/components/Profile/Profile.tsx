@@ -4,7 +4,7 @@ import MyPosts from './MyPosts/MyPosts';
 
 const Profile: React.FC = () => {
   return (
-    <div className={s.content}>
+    <div>
         <div>
           <img
             src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=800"
